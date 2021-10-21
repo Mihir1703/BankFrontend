@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Recursive', sans-serif;
+}
+body{
+    height: 100vh;
+}
+/* Page Not Found  */
+.not-found{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.not-found img{
+    width: 250px;
+}
+.info{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin: 15px 0px;
+}
+.info span{
+    margin-bottom: 20px;
+}
+.btn-primary{
+    height: 40px;
+    color: white;
+    padding: 7px 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    background-color: rgb(0, 102, 255);
+}
+/* Login */
+.login{
+    height: 100vh;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items:center;
+}
+.show-off{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.show-off span{
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+.show-off img{
+    width: 300px;
+}
+/* Login form */
+.login-form form{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    border: 2px solid black;
+    padding: 45px 45px;
+    background-color: rgb(159, 212, 243);
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+.head-login span{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.vertical-center{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content:center;
+    margin: 10px 0px;
+}
+.head-login{
+    margin-bottom: 20px;
+}
+.vertical-center input{
+    height: 35px;
+    padding: 0px 12px;
+    outline: none;
+    border-radius: 8px;
+    border: 0;
+}
+.vertical-center span{
+    font-size: 0.9rem;
+    margin-bottom: 2px;
+}
+.btn-submit{
+    height: 40px;
+    padding: 5px 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
